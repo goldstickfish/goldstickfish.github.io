@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #666;
+    border-radius: 5px;
+}
+
+header {
+    background: #333;
+    color: grey;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.project {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer p:last-child {
+    font-size: 1.2rem;
+}
+
+footer .emoji {
+    font-size: 1.5rem;
+}
+
+
+#ems {
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#ems button {
+    background-color: grey;  
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.7s ease, transform 0.5s ease;
+    text-transform: uppercase;
+}
+
+#ems button:hover {
+    background-color: blue; 
+    transform: scale(1.05);  
+}
+
+#ems button:focus {
+    outline: none;
+}
+
+#ems button:active {
+    background-color: blue; 
+}
